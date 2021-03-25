@@ -1,21 +1,22 @@
 import logo from './logo.svg';
+import dockerlogo from './docker1.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={dockerlogo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          DevOps with Docker MOOC 2021 excercise 3.1.
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/Harjuko/Devops-MOOC-React"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Kristian Harju
         </a>
       </header>
     </div>
